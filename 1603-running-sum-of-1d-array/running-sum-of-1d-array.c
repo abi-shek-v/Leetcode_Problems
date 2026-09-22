@@ -10,4 +10,5 @@ int* runningSum(int* nums, int n, int* returnSize) {
     }
     *returnSize=n;
     return prev;
+    free(prev);
 }
